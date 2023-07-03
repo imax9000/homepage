@@ -1,1 +1,3 @@
-# homepage
+# imax
+
+Hello, world!
