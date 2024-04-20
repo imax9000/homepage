@@ -5,6 +5,7 @@
 
 .homepage {
   --ifm-container-width: min(90vw, 45rem);
+  margin-top: 2rem;
 }
 
 .heroBanner {
