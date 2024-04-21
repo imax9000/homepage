@@ -5,6 +5,7 @@
 
 .homepage {
   --ifm-container-width: min(90vw, 45rem);
+  --ifm-container-width-xl: var(--ifm-container-width);
   margin-top: 2rem;
 }
 
