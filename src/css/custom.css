@@ -37,5 +37,7 @@
   fill: var(--ifm-link-hover-color);
 }
 
-
+.row--justify-center {
+  justify-content: center;
+}
 

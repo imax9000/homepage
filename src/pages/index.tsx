@@ -55,6 +55,10 @@ export default function Home(): JSX.Element {
             <Text className="text--break"/>
             </div>
           </div>
+          <div className="row row--justify-center">
+            <a className="button button--secondary button--lg"
+              href="https://savelife.in.ua/en/donate-en/">Help Ukraine 🇺🇦</a>
+          </div>
         </div>
       </main>
     </Layout>
