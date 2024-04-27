@@ -56,7 +56,7 @@ export default function Home(): JSX.Element {
             </div>
           </div>
           <div className="row row--justify-center">
-            <a className="button button--secondary button--lg"
+            <a className="button button--primary button--lg"
               href="https://savelife.in.ua/en/donate-en/">Help Ukraine 🇺🇦</a>
           </div>
         </div>
