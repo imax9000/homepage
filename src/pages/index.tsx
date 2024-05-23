@@ -33,7 +33,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <SocialLink url="https://bsky.app/profile/did:plc:ivqrehafyybffh7yxmwhf5n5"><BlueskySvg/></SocialLink>
           <SocialLink url="https://github.com/imax9000/"><GithubSvg/></SocialLink>
-          <SocialLink url="https://discordapp.com/users/379475972509925377"><DiscordSvg/></SocialLink>
+          {/* <SocialLink url="https://discordapp.com/users/379475972509925377"><DiscordSvg/></SocialLink> */}
           <SocialLink url="https://steamcommunity.com/profiles/76561198038606383"><SteamSvg/></SocialLink>
         </div>
       </div>
