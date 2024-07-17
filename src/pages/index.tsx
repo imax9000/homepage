@@ -15,7 +15,7 @@ import Text from './_index.md';
 function SocialLink(props: { url: string, children: ReactNode }) {
   const { url, children } = props;
   return (
-    <Link className="button button--link" to={url}>
+    <Link className="button button--link u-url" to={url} rel="me">
       {children}
     </Link>
   );
@@ -46,7 +46,9 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       description={`${siteConfig.tagline}`}
+      wrapperClassName="h-card"
       noFooter>
+      <a href="https://imax.in.ua" style={{ 'display': 'none' }} className="u-url u-uid" rel="me">imax</a>
       <HomepageHeader />
       <main className={styles.homepage}>
         <div className="container">
@@ -62,6 +64,6 @@ export default function Home(): JSX.Element {
           </div>
         </div>
       </main>
-    </Layout>
+    </Layout >
   );
 }
