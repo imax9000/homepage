@@ -9,6 +9,7 @@ import BlueskySvg from '@site/static/icons/bluesky.svg';
 import GithubSvg from '@site/static/icons/github.svg';
 import DiscordSvg from '@site/static/icons/discord.svg';
 import SteamSvg from '@site/static/icons/steam.svg';
+import MatrixSvg from '@site/static/icons/matrix.svg';
 import styles from './index.module.css';
 import Text from './_index.md';
 
@@ -33,6 +34,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <SocialLink url="https://bsky.app/profile/did:plc:ivqrehafyybffh7yxmwhf5n5"><BlueskySvg /></SocialLink>
           <SocialLink url="https://github.com/imax9000/"><GithubSvg /></SocialLink>
+          <SocialLink url="https://matrix.to/#/@imax:imax.in.ua"><MatrixSvg/></SocialLink>
           <SocialLink url="https://discordapp.com/users/379475972509925377"><DiscordSvg /></SocialLink>
           <SocialLink url="https://steamcommunity.com/profiles/76561198038606383"><SteamSvg /></SocialLink>
         </div>
