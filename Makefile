@@ -5,3 +5,6 @@ run:
 
 build:
 	@npm run build
+
+update-deps:
+	@npm update --save
