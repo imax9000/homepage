@@ -4,7 +4,7 @@ tags: [ukraine, disinfo, russians]
 
 # Treat everything russians say as potential disinfo
 
-To this day, [February 965th of 2022](https://en.wikipedia.org/wiki/Russian_invasion_of_Ukraine),
+To this day, [February 967th of 2022](https://en.wikipedia.org/wiki/Russian_invasion_of_Ukraine),
 in English-speaking countries russians are still over-represented in anything
 related to Ukraine.
 
